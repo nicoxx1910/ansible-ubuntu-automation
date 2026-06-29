@@ -14,6 +14,7 @@ The lab is based on Proxmox VE and runs multiple Ubuntu Server virtual machines.
 
 Ansible is used to manage configuration, patching, and monitoring setup across all Ubuntu systems.
 
+```text
                  ┌─────────────────┐
                  │   Proxmox VE    │
                  └────────┬────────┘
@@ -31,3 +32,4 @@ Ansible is used to manage configuration, patching, and monitoring setup across a
         │ Ansible Node   │
         │ Playbooks/Git  │
         └────────────────┘
+```
