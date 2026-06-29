@@ -1,0 +1,7 @@
+---
+- name: Patch Ubuntu systems
+  hosts: all
+  become: true
+
+  roles:
+    - patching

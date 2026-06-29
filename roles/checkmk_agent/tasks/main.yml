@@ -1,0 +1,15 @@
+---
+- name: Download Checkmk agent package
+  get_url:
+    url: "https://download.checkmk.com/checkmk_agent.deb"
+    dest: /tmp/checkmk-agent.deb
+
+- name: Install Checkmk agent
+  apt:
+    deb: /tmp/checkmk-agent.deb
+
+- name: Ensure Checkmk agent service is running
+  service:
+    name: checkmk-agent
+    state: started
+    enabled: true

@@ -1,0 +1,7 @@
+---
+- name: Install Checkmk agent
+  hosts: all
+  become: true
+
+  roles:
+    - checkmk_agent
