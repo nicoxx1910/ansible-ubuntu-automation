@@ -22,7 +22,7 @@ Ansible is used to manage configuration, patching, and monitoring setup across a
          ┌────────────────┼────────────────┐
          │                │                │
  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐
- │ RHEL-01     │  │ RHEL-02     │  │ Icinga VM   │
+ │ RHEL-01     │  │ RHEL-02     │  │ Checkmk VM  │
  │ Web Server  │  │ App Server  │  │ Monitoring  │
  └──────┬──────┘  └──────┬──────┘  └─────────────┘
         │                │
